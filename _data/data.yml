@@ -221,9 +221,7 @@ oss:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      For more, visit <a href=http://https://inspirehep.net/authors/2060571 target="_blank">InspireHep</a>.
     papers:
       - title: "Distinguishing circumstellar from stellar photometric variability in Eta Carinae"
         link: "https://doi.org/10.1093/mnras/stz067"
@@ -231,7 +229,7 @@ publications:
         conference: "Monthly Notices of the Royal Astronomy Society, 2019"
 
       - title: "SoLAr: Solar Neutrinos in Liquid Argon"
-        link: "#"
+        link: "https://lss.fnal.gov/archive/2022/conf/fermilab-conf-22-204-t.pdf"
         authors: Saba Parsa et. al.
         conference: "Snowmass, 2021"
 
