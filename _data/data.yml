@@ -203,7 +203,7 @@ projects:
     assignments:
       - title: Yugiquery
         link: "http://guigoruiz1.github.io/yugiquery"
-        tagline: " Python script to query and display Yu-Gi-Oh! data from the [yugipedia](http://yugipedia.com) database"
+        tagline: " Python script to query and display Yu-Gi-Oh! data from the <a href:http://yugipedia.com>yugipedia</a> database"
 
       - title: Arduino Odometry
         link: "http://github.com/guigoruiz1/arduino-odometry"
