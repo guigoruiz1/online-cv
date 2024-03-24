@@ -216,7 +216,7 @@ oss:
     contributions:
       - title: TQDM Discord contrib fix
         link: "https://github.com/guigoruiz1/tqdm"
-        tagline: "Implementation of Discord Rich Presence for the tqdm progress bar using pure REST API"
+        tagline: Implementation of Discord Rich Presence for the tqdm progress bar using pure REST API
 
 publications:
     title: Publications
