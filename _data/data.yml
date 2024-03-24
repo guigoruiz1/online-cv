@@ -84,6 +84,16 @@ education:
             - Final result: Distinction (75.5%)
             - Thesis available on request
 
+      - degree: BSc in Physics with Astronomy
+        university: University of São Paulo
+        time: 2013 - 2018
+        details: |
+          Consisted of every module from the physics course plus the core modules from the astronomy course. 
+          BSc Final Term Work: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
+          Supervisor: Augusto Damineli.
+            - Final grade: 7 out of 10
+            - Transcript available on request
+
       - degree: First joint ICTP-Trieste/ICTP-SAIFR School on Particle Physics
         university: IFT-UNESP
         time: 2018
@@ -96,15 +106,7 @@ education:
         details: |
           One week introductory course to particle physics.
 
-      - degree: BSc in Physics with Astronomy
-        university: University of São Paulo
-        time: 2013 - 2018
-        details: |
-          Consisted of every module from the physics course plus the core modules from the astronomy course. 
-          BSc Final Term Work: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
-          Supervisor: Augusto Damineli.
-            - Final grade: 7 out of 10
-            - Transcript available on request
+
 
 experiences:
     title: Experiences
