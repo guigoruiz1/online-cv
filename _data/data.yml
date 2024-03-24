@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: 6794856/guilherme-ruiz # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: CV.pdf
 
     languages:
       title: Languages
@@ -42,17 +42,17 @@ sidebar:
         - idiom: Spanish
           level: Basic
 
-    interests:
-      title: Interests
-      info:
-        - item: 
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: 
+    #       link:
 
-        - item: 
-          link:
+    #     - item: 
+    #       link:
 
-        - item: 
-          link:
+    #     - item: 
+    #       link:
 
 career-profile:
     title: Career Profile
@@ -63,6 +63,7 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
+
 education:
     title: Education
     info:
@@ -70,137 +71,176 @@ education:
         university: University of Manchester
         time: 2018 - Current
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+          Project name: “Study of solar neutrinos with a large pixelated liquid Argon detector”. 
+          Supervisor: Stefan Söldner-Remdold
             - Bullet point
             - Bullet point
+
       - degree: MSc in Physics
         university: University College London
         time: 2018 - 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+           Project name: “Exotic Contributions to Double Beta Decay”. Supervisor: Frank Deppisch.
+            - Final result: Distinction (75.5%)
+            - Thesis available on request
+
+      - degree: First joint ICTP-Trieste/ICTP-SAIFR School on Particle Physics
+        university: IFT-UNESP
+        time: 2018
+        details: |
+          Two week course given by six lecturers each from a different world-class university.
+
+      - degree: Particle Physics Summer Course
+        university: University of São Paulo
+        time: 2017
+        details: |
+          One week introductory course to particle physics.
+
       - degree: BSc in Physics with Astronomy
         university: University of São Paulo
         time: 2013 - 2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Consisted of every module from the physics course plus the core modules from the astronomy course. 
+          BSc Final Term Work: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
+          Supervisor: Augusto Damineli.
+            - Final grade: 7 out of 10
+            - Transcript available on request
 
 experiences:
     title: Experiences
     info:
       - role: Network Control Manager
         time: 2020 - 2021
-        company: Amazon, London
+        company: Amazon Logistics, London
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Started off as an intern and had a position specially created for me to be hired full time.
+            - Automation of reports and data processing through Python scripts, SQL and Excel
+            - Managing multiple stakeholders and customers, presenting data and promptly handling last minute requests
+            - Prioritisation of workload between long term strategic projects and short term tactical projects
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Competitor
+        time: 2019
+        company: University College London Data Science Society Hackathon
+        details: |
+          Data science competition in partnership with American Express and Microsoft. 
+            - Hosted at Microsoft Reactor London  
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: BSc final term work
+        time: 2017
+        company: University of São Paulo
+        details: |
+          Programatically (Python) collected, organised and thoroughly analysed a large volume of data from numerous sources to determine the mechanism behind η Carinae’s brightening in the last century.
+            - Data analysis and interpretation of photometric data
+            - Development of a Python code to analyse the data
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - role: Undergraduate Research with Scholarship
+        time: 2014 - 2016
+        company: University of São Paulo
+        details: |
+          Assisted the construction and tests of GEM type detectors related to the upgrade of the ALICE experiment at the LHC.
+            - Presented at the 23rd (2015) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
+            - Presented at the 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
+            - Data analysis and interpretation of photometric data
+            - Development of a Python code to analyse the data
+            - Presentation of the results in a seminar and a poster session
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - role: Volunteer
+        time: 2014 – 2016
+        company: Institute of Physics’ LGBT+ Collective
+        details: | 
+          A founding member in 2014. As one of four direction officers from 2015 to 2016:
+            - Planned and coordinated the creation of the collective’s manifesto
+            - Managed social media and events
+            - Persuaded the institute’s administration into implementing new policies for guaranteeing the wellbeing of transgender students
+            - Held many joint meetings with the student’s union officers
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
@@ -209,42 +249,55 @@ publications:
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Distinguishing circumstellar from stellar photometric variability in Eta Carinae"
+        link: "https://doi.org/10.1093/mnras/stz067"
+        authors: A Damineli, E Fernández-Lajús et. al.
+        conference: "Monthly Notices of the Royal Astronomy Society, 2019"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "SoLAr: Solar Neutrinos in Liquid Argon"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Saba Parsa et. al.
+        conference: "Snowmass, 2021"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: MS Office (Excel, VBA)
+        level: 70%
 
-      - name: Angular
-        level: 98%
+      - name: SQL
+        level: 50%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Java
+        level: 30%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: HTML
+        level: 50%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: CSS
+        level: 50%
+
+      - name: LaTeX
+        level: 50%
+
+      - name: Arduino
+        level: 70%
+
+      - name: Git
+        level: 80%
+
+      - name: ROOT
+        level: 20%
+
+      - name: Mathematica
+        level: 50%
+
+      - name: C++
+        level: 10%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
