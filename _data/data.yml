@@ -156,28 +156,22 @@ certifications:
       list:
         - name: Private Pilot License
           start: 2018
-          organization: ANAC (Brazilian Civil Aviation Authority)
+          end:
+          organization: Brazilian Civil Aviation Authority
           credentialid: 349370
           credentialurl: sistemas.anac.gov.br/NovaCHT/ConsultaNovaCht
-          credentialname: Private Pilot - Airplane
+          credentialname: ANAC CHT
           details: |
             Brazilian private pilot license for single engine piston aircraft.
-#         - name: Git learning
-#           start: 2019
-#           end:
-#           organization: Microsoft
-#           credentialid: 111-222
-#           credentialurl: www.github.com
-#           credentialname: Github
-#           details: |
-#             Older certification. Lorem ipsum dolor sit amet, consectetur
-#             adipiscing elit.
-#             Nullam eget orci purus. Nullam ultrices neque nibh.
-#             Aenean fermentum, felis vulputate suscipit accumsan,
-#             sem enim bibendum augue, sed convallis arcu lacus at dui.
-#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#             Praesent venenatis erat non augue suscipit consectetur.
+
+        # - name: Private Pilot License
+        #   start: 2024
+        #   organization: UK Civil Aviation Authority
+        #   credentialid: 
+        #   credentialurl: www.caa.co.uk
+        #   credentialname: CAA PPL
+        #   details: |
+        #     British private pilot license for single engine piston aircraft.
 
 projects:
     title: Projects
