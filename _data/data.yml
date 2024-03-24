@@ -158,7 +158,7 @@ certifications:
           start: 2018
           organization: ANAC (Brazilian Civil Aviation Authority)
           credentialid: 349370
-          credentialurl: https://sistemas.anac.gov.br/novacht/consultanovacht
+          credentialurl: sistemas.anac.gov.br/NovaCHT/ConsultaNovaCht
           credentialname: Private Pilot - Airplane
           details: |
             Brazilian private pilot license for single engine piston aircraft.
@@ -223,6 +223,12 @@ skills:
       - name: Python
         level: 90%
 
+      - name: Git
+        level: 80%
+
+      - name: Arduino
+        level: 70%
+
       - name: MS Office (Excel, VBA)
         level: 70%
 
@@ -240,12 +246,6 @@ skills:
 
       - name: LaTeX
         level: 50%
-
-      - name: Arduino
-        level: 70%
-
-      - name: Git
-        level: 80%
 
       - name: ROOT
         level: 20%
