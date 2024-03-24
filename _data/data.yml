@@ -221,7 +221,7 @@ oss:
 publications:
     title: Publications
     intro: |
-      For more, visit <a href="http://https://inspirehep.net/authors/2060571" target="_blank">InspireHep</a>.
+      For more, visit <a href="http://inspirehep.net/authors/2060571" target="_blank">InspireHep</a>.
     papers:
       - title: "Distinguishing circumstellar from stellar photometric variability in Eta Carinae"
         link: "https://doi.org/10.1093/mnras/stz067"
