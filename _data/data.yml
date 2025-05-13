@@ -54,6 +54,7 @@ sidebar:
     #     - item: 
     #       link:
 
+
 career-profile:
     title: Career Profile
     summary: |
@@ -210,8 +211,26 @@ publications:
         authors: Saba Parsa et. al.
         conference: "Snowmass, 2021"
 
+recommendations:
+  title: Recommendations
+  list:
+  - person: Yareli Perez
+    email: perezyareli@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      Alan Doe is a super employee!
+  - person: Lara Henderson
+    email: larah@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      I would like to work with Alan Doe again!
+
+      He is a great employee!
+
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
     toolset:
       - name: Python
@@ -251,4 +270,4 @@ skills:
         level: 10%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
