@@ -68,7 +68,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: PhD in Physics
+      - degree: PhD in Particle Physics
         university: University of Manchester
         time: 2018 - Current
         details: |
@@ -225,29 +225,29 @@ recommendations:
   title: Recommendations
   list:
   - person: Stefan Söldner-Rembold
-    email: 
-    phone: 
+    email: x
+    phone: x
     role: PhD Supervisor at University of Manchester
     recommendation: |
       Temporary.
 
   - person: Roxanne Guenette
-    email: 
-    phone: 
+    email: x
+    phone: x
     role: PhD Supervisor at University of Manchester
     recommendation: |
       Temporary.
 
   - person: Frank Deppisch
-    email: 
-    phone: 
+    email: x
+    phone: x
     role: MSc Supervisor at University College London
     recommendation: |
       Temporary.
 
   - person: Augusto Damineli
-    email:
-    phone: 
+    email: x
+    phone: x 
     role: BSc Supervisor at University of São Paulo
     recommendation: |
       Temporary.
