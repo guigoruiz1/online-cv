@@ -119,7 +119,7 @@ experiences:
             - Managing multiple stakeholders and customers, presenting data and promptly handling last minute requests
             - Prioritisation of workload between long term strategic projects and short term tactical projects
 
-      - role: Competitor
+      - role: Contestant
         time: 2019
         company: University College London Data Science Society Hackathon
         details: |
@@ -143,14 +143,14 @@ experiences:
             - Presented at the 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
 
       - role: Volunteer
-        time: 2014 – 2016
-        company: Institute of Physics’ LGBT+ Collective
+        time: 2014 - 2016
+        company: Institute of Physics' LGBT+ Collective
         details: | 
           A founding member in 2014. As one of four direction officers from 2015 to 2016:
-            - Planned and coordinated the creation of the collective’s manifesto
+            - Planned and coordinated the creation of the collective's manifesto
             - Managed social media and events
-            - Persuaded the institute’s administration into implementing new policies for guaranteeing the wellbeing of transgender students
-            - Held many joint meetings with the student’s union officers
+            - Persuaded the institute's administration into implementing new policies for guaranteeing the wellbeing of transgender students
+            - Held many joint meetings with the student's union officers
 
 certifications:
       title: Certifications
@@ -165,14 +165,14 @@ certifications:
           details: |
             Brazilian private pilot license for single engine piston aircraft.
 
-        # - name: Private Pilot License
-        #   start: 2024
-        #   organization: UK Civil Aviation Authority
-        #   credentialid: 
-        #   credentialurl: www.caa.co.uk
-        #   credentialname: CAA PPL
-        #   details: |
-        #     British private pilot license for single engine piston aircraft.
+        - name: Private Pilot License
+          start: 2024
+          organization: UK Civil Aviation Authority
+          credentialid: 
+          credentialurl: www.caa.co.uk
+          credentialname: CAA PPL
+          details: |
+            British private pilot license for single engine piston aircraft.
 
 projects:
     title: Projects
@@ -201,6 +201,16 @@ publications:
     intro: |
       For more, visit <a href="http://inspirehep.net/authors/2060571" target="_blank">InspireHep</a>.
     papers:
+      - title: "Opportunities and challenges to study solar neutrinos with a Q-Pix pixel readout"
+        link: "https://arxiv.org/abs/2507.15459"
+        authors: The Q-Pix Collaboration
+        conference: "ArXiv"
+
+      - title: "First Demonstration of a Combined Light and Charge Pixel Readout on the Anode Plane of a LArTPC"
+        link: "https://arxiv.org/abs/2406.14121"
+        authors: The SoLAr Collaboration
+        conference: "JINST 19 (2024) 11, P11010"
+
       - title: "Distinguishing circumstellar from stellar photometric variability in Eta Carinae"
         link: "https://doi.org/10.1093/mnras/stz067"
         authors: A Damineli, E Fernández-Lajús et. al.
@@ -208,33 +218,46 @@ publications:
 
       - title: "SoLAr: Solar Neutrinos in Liquid Argon"
         link: "https://lss.fnal.gov/archive/2022/conf/fermilab-conf-22-204-t.pdf"
-        authors: Saba Parsa et. al.
+        authors: The SoLAr Collaboration
         conference: "Snowmass, 2021"
 
 recommendations:
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+  - person: Stefan Söldner-Rembold
+    email: 
+    phone: 
+    role: PhD Supervisor at University of Manchester
     recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+      Temporary.
 
-      He is a great employee!
+  - person: Roxanne Guenette
+    email: 
+    phone: 
+    role: PhD Supervisor at University of Manchester
+    recommendation: |
+      Temporary.
+
+  - person: Frank Deppisch
+    email: 
+    phone: 
+    role: MSc Supervisor at University College London
+    recommendation: |
+      Temporary.
+
+  - person: Augusto Damineli
+    email:
+    phone: 
+    role: BSc Supervisor at University of São Paulo
+    recommendation: |
+      Temporary.
 
 skills:
   title: Skills &amp; Proficiency
 
     toolset:
       - name: Python
-        level: 90%
+        level: 95%
 
       - name: Git
         level: 80%
@@ -258,7 +281,7 @@ skills:
         level: 50%
 
       - name: LaTeX
-        level: 50%
+        level: 70%
 
       - name: ROOT
         level: 20%
@@ -267,7 +290,7 @@ skills:
         level: 50%
 
       - name: C++
-        level: 10%
+        level: 20%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
