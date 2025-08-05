@@ -164,14 +164,14 @@ certifications:
           details: |
             Brazilian private pilot license for single engine piston aircraft.
 
-        - name: Private Pilot License
-          start: 2024
-          organization: UK Civil Aviation Authority
-          credentialid: 000000
-          credentialurl: www.caa.co.uk
-          credentialname: CAA PPL
-          details: |
-            British private pilot license for single engine piston aircraft.
+        # - name: Private Pilot License
+        #   start: 2024
+        #   organization: UK Civil Aviation Authority
+        #   credentialid: 000000
+        #   credentialurl: www.caa.co.uk
+        #   credentialname: CAA PPL
+        #   details: |
+        #     British private pilot license for single engine piston aircraft.
 
 projects:
     title: Projects
@@ -220,36 +220,36 @@ publications:
         authors: The SoLAr Collaboration
         conference: "Snowmass, 2021"
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Stefan Söldner-Rembold
-    email: x
-    phone: x
-    role: PhD Supervisor at University of Manchester
-    recommendation: |
-      Temporary.
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Stefan Söldner-Rembold
+#     email: x
+#     phone: x
+#     role: PhD Supervisor at University of Manchester
+#     recommendation: |
+#       Temporary.
 
-  - person: Roxanne Guenette
-    email: x
-    phone: x
-    role: PhD Supervisor at University of Manchester
-    recommendation: |
-      Temporary.
+#   - person: Roxanne Guenette
+#     email: x
+#     phone: x
+#     role: PhD Supervisor at University of Manchester
+#     recommendation: |
+#       Temporary.
 
-  - person: Frank Deppisch
-    email: x
-    phone: x
-    role: MSc Supervisor at University College London
-    recommendation: |
-      Temporary.
+#   - person: Frank Deppisch
+#     email: x
+#     phone: x
+#     role: MSc Supervisor at University College London
+#     recommendation: |
+#       Temporary.
 
-  - person: Augusto Damineli
-    email: x
-    phone: x 
-    role: BSc Supervisor at University of São Paulo
-    recommendation: |
-      Temporary.
+#   - person: Augusto Damineli
+#     email: x
+#     phone: x 
+#     role: BSc Supervisor at University of São Paulo
+#     recommendation: |
+#       Temporary.
 
 skills:
   title: Skills &amp; Proficiency
