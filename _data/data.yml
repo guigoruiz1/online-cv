@@ -252,45 +252,45 @@ publications:
 #     recommendation: |
 #       Temporary.
 
-skills:
-  title: Skills &amp; Proficiency
+# skills:
+#   title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python
-        level: 95%
+#     toolset:
+#       - name: Python
+#         level: 95%
 
-      - name: Git
-        level: 80%
+#       - name: Git
+#         level: 80%
 
-      - name: Arduino
-        level: 70%
+#       - name: Arduino
+#         level: 70%
 
-      - name: MS Office (Excel, VBA)
-        level: 70%
+#       - name: MS Office (Excel, VBA)
+#         level: 70%
 
-      - name: SQL
-        level: 50%
+#       - name: SQL
+#         level: 50%
 
-      - name: Java
-        level: 30%
+#       - name: Java
+#         level: 30%
 
-      - name: HTML
-        level: 50%
+#       - name: HTML
+#         level: 50%
 
-      - name: CSS
-        level: 50%
+#       - name: CSS
+#         level: 50%
 
-      - name: LaTeX
-        level: 70%
+#       - name: LaTeX
+#         level: 70%
 
-      - name: ROOT
-        level: 20%
+#       - name: ROOT
+#         level: 20%
 
-      - name: Mathematica
-        level: 50%
+#       - name: Mathematica
+#         level: 50%
 
-      - name: C++
-        level: 20%
+#       - name: C++
+#         level: 20%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
