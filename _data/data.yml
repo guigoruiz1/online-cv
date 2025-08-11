@@ -4,8 +4,8 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Guilherme Ruiz
@@ -60,48 +60,6 @@ career-profile:
     summary: |
       Under construction.
 
-education:
-    title: Education
-    info:
-      - degree: PhD in Particle Physics
-        university: University of Manchester
-        time: 2018 - Current
-        details: |
-          Project name: “Study of solar neutrinos with a large pixelated liquid Argon detector”. 
-          Supervisor: Stefan Söldner-Remdold
-            - Bullet point
-            - Bullet point
-
-      - degree: MSc in Physics
-        university: University College London
-        time: 2018 - 2020
-        details: |
-           Project name: “Exotic Contributions to Double Beta Decay”. Supervisor: Frank Deppisch.
-            - Final result: Distinction (75.5%)
-            - Thesis available on request
-
-      - degree: BSc in Physics with Astronomy
-        university: University of São Paulo
-        time: 2013 - 2018
-        details: |
-          Consisted of every module from the physics course plus the core modules from the astronomy course. 
-          BSc Final Term Work: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
-          Supervisor: Augusto Damineli.
-            - Final grade: 7 out of 10
-            - Transcript available on request
-
-      - degree: First joint ICTP-Trieste/ICTP-SAIFR School on Particle Physics
-        university: IFT-UNESP
-        time: 2018
-        details: |
-          Two week course given by six lecturers each from a different world-class university.
-
-      - degree: Particle Physics Summer Course
-        university: University of São Paulo
-        time: 2017
-        details: |
-          One week introductory course to particle physics.
-
 experiences:
     title: Experiences
     info:
@@ -146,6 +104,48 @@ experiences:
             - Managed social media and events
             - Persuaded the institute's administration into implementing new policies for guaranteeing the wellbeing of transgender students
             - Held many joint meetings with the student's union officers
+
+education:
+    title: Education
+    info:
+      - degree: PhD in Particle Physics
+        university: University of Manchester
+        time: 2018 - Current
+        details: |
+          Project name: “Study of solar neutrinos with a large pixelated liquid Argon detector”. 
+          Supervisor: Stefan Söldner-Remdold
+            - Bullet point
+            - Bullet point
+
+      - degree: MSc in Physics
+        university: University College London
+        time: 2018 - 2020
+        details: |
+           Project name: “Exotic Contributions to Double Beta Decay”. Supervisor: Frank Deppisch.
+            - Final result: Distinction (75.5%)
+            - Thesis available on request
+
+      - degree: BSc in Physics with Astronomy
+        university: University of São Paulo
+        time: 2013 - 2018
+        details: |
+          Consisted of every module from the physics course plus the core modules from the astronomy course. 
+          BSc Final Term Work: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
+          Supervisor: Augusto Damineli.
+            - Final grade: 7 out of 10
+            - Transcript available on request
+
+      - degree: First joint ICTP-Trieste/ICTP-SAIFR School on Particle Physics
+        university: IFT-UNESP
+        time: 2018
+        details: |
+          Two week course given by six lecturers each from a different world-class university.
+
+      - degree: Particle Physics Summer Course
+        university: University of São Paulo
+        time: 2017
+        details: |
+          One week introductory course to particle physics.
 
 certifications:
       title: Certifications
