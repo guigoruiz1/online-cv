@@ -58,7 +58,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Under construction.
+      I am a particle physicist and PhD candidate at the University of Manchester, researching solar neutrino detection with liquid Argon time projection chambers. I hold an MSc from University College London and a BSc from the University of São Paulo, with additional experience in software development, data analysis, and operational strategy at Amazon. I also hold private aeroplane pilot licenses from Brazil and the UK.
 
 experiences:
     title: Experiences
@@ -113,9 +113,8 @@ education:
         time: 2018 - Current
         details: |
           Project name: “Study of solar neutrinos with a large pixelated liquid Argon detector”. 
-          Supervisor: Stefan Söldner-Remdold
-            - Bullet point
-            - Bullet point
+          Supervisors: Stefan Söldner-Remdold and Roxanne Guenette.
+            - Thesis available on request
 
       - degree: MSc in Physics
         university: University College London
