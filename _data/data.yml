@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Guilherme Ruiz
-    tagline: Particle Physicist
+    tagline: PhD in Particle Physics
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -57,7 +57,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a particle physicist and PhD candidate at the University of Manchester, researching solar neutrino detection with liquid Argon time projection chambers. I hold an MSc from University College London and a BSc from the University of São Paulo, with additional experience in software development, data analysis, and operational strategy at Amazon. I also hold private aeroplane pilot licenses from Brazil and the UK.
+      I am a particle physicist with a PhD from the University of Manchester, researching solar neutrino detection with liquid Argon time projection chambers. I hold an MSc from University College London and a BSc from the University of São Paulo, with additional experience in software development, data analysis, and operational strategy at Amazon. I also hold private aeroplane pilot licenses from Brazil and the UK.
 
 experiences:
     title: Experiences
@@ -109,7 +109,7 @@ education:
     info:
       - degree: PhD in Particle Physics
         university: University of Manchester
-        time: 2018 - Current
+        time: 2021 - 2025
         details: |
           Project name: “Study of solar neutrinos with a large pixelated liquid Argon detector”. 
           Supervisors: Stefan Söldner-Remdold and Roxanne Guenette.
@@ -195,9 +195,9 @@ publications:
       For more, visit <a href="http://inspirehep.net/authors/2060571" target="_blank">InspireHep</a>.
     papers:
       - title: "Opportunities and challenges to study solar neutrinos with a Q-Pix pixel readout"
-        link: "https://arxiv.org/abs/2507.15459"
+        link: "https://doi.org/10.1103/xq7l-lv7j"
         authors: The Q-Pix Collaboration
-        conference: "ArXiv, 2025"
+        conference: "Phys. Rev. D 112, 092009 (2025)"
 
       - title: "First Demonstration of a Combined Light and Charge Pixel Readout on the Anode Plane of a LArTPC"
         link: "https://arxiv.org/abs/2406.14121"
