@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: 6794856/guilherme-ruiz # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: # CV.pdf
+    pdf: CV.pdf
 
     languages:
       title: Languages
@@ -72,29 +72,29 @@ experiences:
             - Managing multiple stakeholders and customers, presenting data and promptly handling last minute requests
             - Prioritisation of workload between long term strategic projects and short term tactical projects
 
-      - role: Contestant
+      - role: Hackathon Contestant
         time: 2019
         company: University College London Data Science Society Hackathon
         details: |
           Data science competition in partnership with American Express and Microsoft. 
             - Hosted at Microsoft Reactor London  
 
-      - role: BSc Final Term Work
-        time: 2017
-        company: University of São Paulo
-        details: |
-          Programatically (Python) collected, organised and thoroughly analysed a large volume of data from numerous sources to determine the mechanism behind η Carinae’s brightening in the last century.
-            - Data analysis and interpretation of photometric data
-            - Development of a Python code to analyse the data
+      # - role: Undergraduate Research Assistant
+      #   time: 2017
+      #   company: University of São Paulo
+      #   details: |
+      #     Programatically (Python) collected, organised and thoroughly analysed a large volume of data from numerous sources to determine the mechanism behind η Carinae’s brightening in the last century.
+      #       - Data analysis and interpretation of photometric data
+      #       - Development of a Python code to analyse the data
 
-      - role: Undergraduate Research with Scholarship
+      - role: Undergraduate Researcher Assistant
         time: 2014 - 2016
         company: University of São Paulo
         details: |
           Assisted the construction and tests of GEM type detectors related to the upgrade of the ALICE experiment at the LHC.
-            - Presented at the 23rd (2015) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
-            - Presented at the 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
-
+            - Funded by CNPq - PIBIC scholarship
+            - Presented at the 23rd (2015) and 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
+            
       - role: Volunteer
         time: 2014 - 2016
         company: Institute of Physics' LGBT+ Collective
@@ -112,15 +112,21 @@ education:
         university: University of Manchester
         time: 2021 - 2025
         details: |
-          Project name: “Study of solar neutrinos with a large pixelated liquid Argon detector”. 
+          Thesis: “Solar Neutrino Detection with a Pixelated Liquid-Argon Time Projection Chamber”. 
           Supervisors: Stefan Söldner-Remdold and Roxanne Guenette.
             - Thesis available on request
+
+      - degree: STFC Summer School
+        university: University of Oxford
+        time: 2022
+        details: |
+          One week course on particle physics.
 
       - degree: MSc in Physics
         university: University College London
         time: 2018 - 2020
         details: |
-           Project name: “Exotic Contributions to Double Beta Decay”. Supervisor: Frank Deppisch.
+           Thesis: “Exotic Contributions to Double Beta Decay”. Supervisor: Frank Deppisch.
             - Final result: Distinction (75.5%)
             - Thesis available on request
 
@@ -129,7 +135,7 @@ education:
         time: 2013 - 2018
         details: |
           Consisted of every module from the physics course plus the core modules from the astronomy course. 
-          BSc Final Term Work: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
+          Thesis: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
           Supervisor: Augusto Damineli.
             - Final grade: 7 out of 10
             - Transcript available on request
@@ -173,13 +179,25 @@ projects:
     intro: >
       Personal projects and academic assignments.
     assignments:
+      - title: SoLAr V2 reco
+        link: "https://github.com/SoLAr-Neutrinos/SoLAr-V2-reco"
+        tagline: Reconstruction and data analysis software for the SoLAr experiment's second prototype detector.
+
       - title: Yugiquery
         link: "http://guigoruiz1.github.io/yugiquery"
-        tagline: Python script to query and display Yu-Gi-Oh! data from the <a href="http://yugipedia.com" target="_blank">yugipedia</a> database
+        tagline: Python script to query and display Yu-Gi-Oh! data from the <a href="http://yugipedia.com" target="_blank">yugipedia</a> database.
 
       - title: Arduino Odometry
         link: "http://github.com/guigoruiz1/arduino-odometry"
-        tagline: Jupyter notebook to reconstruct inertial navigation data from arduino sensors
+        tagline: Jupyter notebook to reconstruct inertial navigation data from arduino sensors.
+
+      - title: nbtools
+        link: "https://github.com/guigoruiz1/nbtools"
+        tagline: Collection of Jupyter notebook utilities to improve productivity and usability.
+
+      - title: DHT Weather Library
+        link: "https://github.com/guigoruiz1/DHT-weather-library"
+        tagline: Arduino library for reading the DHT family of sensors and performing common weather calculations.
 
 oss:
     title: OSS Contributions
@@ -187,33 +205,54 @@ oss:
       Pull requests and contributions to open source projects.
     contributions:
       - title: TQDM Discord contrib fix
-        link: "https://github.com/guigoruiz1/tqdm"
-        tagline: Implementation of Discord Rich Presence for the tqdm progress bar using pure REST API
+        link: "https://github.com/tqdm/tqdm/pull/1536"
+        tagline: Implementation of Discord Rich Presence for the tqdm progress bar using pure REST API.
+
+      - title: Halo fix for ipython>8.17.0
+        link: "https://github.com/manrajgrover/halo/pull/180"
+        tagline: Fix for halo package compatibility with ipython versions higher than 8.17.0.
+
+      - title: pylandau logging enhancement
+        link: "https://github.com/SiLab-Bonn/pylandau/pull/31"
+        tagline: Added logging mechanism to pylandau package to handle warnings instead of using print statements.
+
 
 publications:
     title: Publications
     intro: |
       For more, visit <a href="http://inspirehep.net/authors/2060571" target="_blank">InspireHep</a>.
     papers:
+      - title: "Cosmic Ray Measurements Using Charge and Light Readout in a Pixelated Liquid Argon Time Projection Chamber"
+        link: "https://doi.org/10.48550/arXiv.2512.10830"
+        authors: The SoLAr Collaboration
+        conference: "arXiv:2512.10830 [physics.ins-det] (2025)"
+
       - title: "Opportunities and challenges to study solar neutrinos with a Q-Pix pixel readout"
         link: "https://doi.org/10.1103/xq7l-lv7j"
         authors: The Q-Pix Collaboration
         conference: "Phys. Rev. D 112, 092009 (2025)"
 
       - title: "First Demonstration of a Combined Light and Charge Pixel Readout on the Anode Plane of a LArTPC"
-        link: "https://arxiv.org/abs/2406.14121"
+        link: "https://doi.org/10.1088/1748-0221/19/11/P11010"
         authors: The SoLAr Collaboration
         conference: "JINST 19 (2024) 11, P11010"
-
+        
       - title: "Distinguishing circumstellar from stellar photometric variability in Eta Carinae"
         link: "https://doi.org/10.1093/mnras/stz067"
         authors: A Damineli, E Fernández-Lajús et. al.
         conference: "Monthly Notices of the Royal Astronomy Society, 2019"
 
+    # proceedings:
+      - title: "SoLAr: A novel technology for solar neutrino detection"
+        link: "https://doi.org/10.5281/zenodo.11447758"
+        authors: Guilherme Ruiz Ferreira
+        conference: NuPhys2023: Prospects in Neutrino Physics, 18-20 December 2023, London, UK
+
       - title: "SoLAr: Solar Neutrinos in Liquid Argon"
-        link: "https://lss.fnal.gov/archive/2022/conf/fermilab-conf-22-204-t.pdf"
+        link: "https://doi.org/10.48550/arXiv.2203.07501"
         authors: The SoLAr Collaboration
         conference: "Snowmass, 2021"
+
 
 # recommendations:
 #   title: Recommendations
