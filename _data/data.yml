@@ -6,36 +6,12 @@ sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Guilherme Ruiz
     tagline: PhD in Particle Physics
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    # Profile information
-    name: Guilherme Ruiz
-    tagline: PhD in Particle Physics
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: guilherme.guigoruiz@gmail.com
-    phone: 
-    timezone: Europe/London
-    citizenship: Spanish & Brazilian
-    website: ruizbad.com #do not add http://
-    linkedin: guigoruiz1
-    xing:
-    github: guigoruiz1
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    # twitter: '@guigoruiz1'
-    stack-overflow: 6794856/guilherme-ruiz # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: CV.pdf
     # Sidebar links
     email: guilherme.guigoruiz@gmail.com
     phone: 
@@ -59,46 +35,22 @@ sidebar:
       info:
         - idiom: Portuguese
           level: Native
-    languages:
-      title: Languages
-      info:
-        - idiom: Portuguese
-          level: Native
 
-        - idiom: English
-          level: Fluent
         - idiom: English
           level: Fluent
 
         - idiom: Spanish
           level: Basic
-        - idiom: Spanish
-          level: Basic
+
 
     # interests:
     #   title: Interests
     #   info:
-    #     - item: 
-    #       link:
-    # interests:
-    #   title: Interests
-    #   info:
-    #     - item: 
-    #       link:
-
-    #     - item: 
-    #       link:
-    #     - item: 
-    #       link:
-
     #     - item: 
     #       link:
 
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I am a particle physicist with a PhD from the University of Manchester, researching solar neutrino detection with liquid Argon time projection chambers. I hold an MSc from University College London and a BSc from the University of São Paulo, with additional experience in software development, data analysis, and operational strategy at Amazon. I also hold private aeroplane pilot licenses from Brazil and the UK.
     title: Career Profile
     summary: |
       I am a particle physicist with a PhD from the University of Manchester, researching solar neutrino detection with liquid Argon time projection chambers. I hold an MSc from University College London and a BSc from the University of São Paulo, with additional experience in software development, data analysis, and operational strategy at Amazon. I also hold private aeroplane pilot licenses from Brazil and the UK.
@@ -194,118 +146,8 @@ education:
         time: 2017
         details: |
           One week introductory course to particle physics.
-    title: Experiences
-    info:
-      - role: Network Control Manager
-        time: 2020 - 2021
-        company: Amazon Logistics, London
-        details: |
-          Started off as an intern and had a position specially created for me to be hired full time.
-            - Automation of reports and data processing through Python scripts, SQL and Excel
-            - Managing multiple stakeholders and customers, presenting data and promptly handling last minute requests
-            - Prioritisation of workload between long term strategic projects and short term tactical projects
-
-      - role: Hackathon Contestant
-        time: 2019
-        company: University College London Data Science Society Hackathon
-        details: |
-          Data science competition in partnership with American Express and Microsoft. 
-            - Hosted at Microsoft Reactor London  
-
-      # - role: Undergraduate Research Assistant
-      #   time: 2017
-      #   company: University of São Paulo
-      #   details: |
-      #     Programatically (Python) collected, organised and thoroughly analysed a large volume of data from numerous sources to determine the mechanism behind η Carinae’s brightening in the last century.
-      #       - Data analysis and interpretation of photometric data
-      #       - Development of a Python code to analyse the data
-
-      - role: Undergraduate Researcher Assistant
-        time: 2014 - 2016
-        company: University of São Paulo
-        details: |
-          Assisted the construction and tests of GEM type detectors related to the upgrade of the ALICE experiment at the LHC.
-            - Funded by CNPq - PIBIC scholarship
-            - Presented at the 23rd (2015) and 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
-            
-      - role: Volunteer
-        time: 2014 - 2016
-        company: Institute of Physics' LGBT+ Collective
-        details: | 
-          A founding member in 2014. As one of four direction officers from 2015 to 2016:
-            - Planned and coordinated the creation of the collective's manifesto
-            - Managed social media and events
-            - Persuaded the institute's administration into implementing new policies for guaranteeing the wellbeing of transgender students
-            - Held many joint meetings with the student's union officers
-
-education:
-    title: Education
-    info:
-      - degree: PhD in Particle Physics
-        university: University of Manchester
-        time: 2021 - 2025
-        details: |
-          Thesis: “Solar Neutrino Detection with a Pixelated Liquid-Argon Time Projection Chamber”. 
-          Supervisors: Stefan Söldner-Remdold and Roxanne Guenette.
-            - Thesis available on request
-
-      - degree: STFC Summer School
-        university: University of Oxford
-        time: 2022
-        details: |
-          One week course on particle physics.
-
-      - degree: MSc in Physics
-        university: University College London
-        time: 2018 - 2020
-        details: |
-           Thesis: “Exotic Contributions to Double Beta Decay”. Supervisor: Frank Deppisch.
-            - Final result: Distinction (75.5%)
-            - Thesis available on request
-
-      - degree: BSc in Physics with Astronomy
-        university: University of São Paulo
-        time: 2013 - 2018
-        details: |
-          Consisted of every module from the physics course plus the core modules from the astronomy course. 
-          Thesis: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
-          Supervisor: Augusto Damineli.
-            - Final grade: 7 out of 10
-            - Transcript available on request
-
-      - degree: First joint ICTP-Trieste/ICTP-SAIFR School on Particle Physics
-        university: IFT-UNESP
-        time: 2018
-        details: |
-          Two week course given by six lecturers each from a different world-class university.
-
-      - degree: Particle Physics Summer Course
-        university: University of São Paulo
-        time: 2017
-        details: |
-          One week introductory course to particle physics.
-
+    
 certifications:
-      title: Certifications
-      list:
-        - name: Private Pilot License
-          start: 2018
-          end:
-          organization: Brazilian Civil Aviation Authority
-          credentialid: 349370
-          credentialurl: sistemas.anac.gov.br/NovaCHT/ConsultaNovaCht
-          credentialname: ANAC CHT
-          details: |
-            Brazilian private pilot license for single engine piston aircraft.
-
-        - name: Private Pilot License
-          start: 2024
-          organization: UK Civil Aviation Authority
-          credentialid: 553115B
-          credentialurl: www.caa.co.uk
-          credentialname: CAA PPL
-          details: |
-            British private pilot license for single engine piston aircraft.
       title: Certifications
       list:
         - name: Private Pilot License
@@ -351,30 +193,7 @@ projects:
       - title: DHT Weather Library
         link: "https://github.com/guigoruiz1/DHT-weather-library"
         tagline: Arduino library for reading the DHT family of sensors and performing common weather calculations.
-    title: Projects
-    intro: >
-      Personal projects and academic assignments.
-    assignments:
-      - title: SoLAr V2 reco
-        link: "https://github.com/SoLAr-Neutrinos/SoLAr-V2-reco"
-        tagline: Reconstruction and data analysis software for the SoLAr experiment's second prototype detector.
-
-      - title: Yugiquery
-        link: "http://guigoruiz1.github.io/yugiquery"
-        tagline: Python script to query and display Yu-Gi-Oh! data from the <a href="http://yugipedia.com" target="_blank">yugipedia</a> database.
-
-      - title: Arduino Odometry
-        link: "http://github.com/guigoruiz1/arduino-odometry"
-        tagline: Jupyter notebook to reconstruct inertial navigation data from arduino sensors.
-
-      - title: nbtools
-        link: "https://github.com/guigoruiz1/nbtools"
-        tagline: Collection of Jupyter notebook utilities to improve productivity and usability.
-
-      - title: DHT Weather Library
-        link: "https://github.com/guigoruiz1/DHT-weather-library"
-        tagline: Arduino library for reading the DHT family of sensors and performing common weather calculations.
-
+    
 oss:
     title: OSS Contributions
     intro: >
@@ -391,23 +210,6 @@ oss:
       - title: pylandau logging enhancement
         link: "https://github.com/SiLab-Bonn/pylandau/pull/31"
         tagline: Added logging mechanism to pylandau package to handle warnings instead of using print statements.
-
-    title: OSS Contributions
-    intro: >
-      Pull requests and contributions to open source projects.
-    contributions:
-      - title: TQDM Discord contrib fix
-        link: "https://github.com/tqdm/tqdm/pull/1536"
-        tagline: Implementation of Discord Rich Presence for the tqdm progress bar using pure REST API.
-
-      - title: Halo fix for ipython>8.17.0
-        link: "https://github.com/manrajgrover/halo/pull/180"
-        tagline: Fix for halo package compatibility with ipython versions higher than 8.17.0.
-
-      - title: pylandau logging enhancement
-        link: "https://github.com/SiLab-Bonn/pylandau/pull/31"
-        tagline: Added logging mechanism to pylandau package to handle warnings instead of using print statements.
-
 
 publications:
     title: Publications
@@ -444,73 +246,6 @@ publications:
         link: "https://doi.org/10.48550/arXiv.2203.07501"
         authors: The SoLAr Collaboration
         conference: "Snowmass, 2021"
-
-
-# recommendations:
-#   title: Recommendations
-#   list:
-#   - person: Stefan Söldner-Rembold
-#     email: x
-#     phone: x
-#     role: PhD Supervisor at University of Manchester
-#     recommendation: |
-#       Temporary.
-
-#   - person: Roxanne Guenette
-#     email: x
-#     phone: x
-#     role: PhD Supervisor at University of Manchester
-#     recommendation: |
-#       Temporary.
-
-#   - person: Frank Deppisch
-#     email: x
-#     phone: x
-#     role: MSc Supervisor at University College London
-#     recommendation: |
-#       Temporary.
-
-#   - person: Augusto Damineli
-#     email: x
-#     phone: x 
-#     role: BSc Supervisor at University of São Paulo
-#     recommendation: |
-#       Temporary.
-    title: Publications
-    intro: |
-      For more, visit <a href="http://inspirehep.net/authors/2060571" target="_blank">InspireHep</a>.
-    papers:
-      - title: "Cosmic Ray Measurements Using Charge and Light Readout in a Pixelated Liquid Argon Time Projection Chamber"
-        link: "https://doi.org/10.48550/arXiv.2512.10830"
-        authors: The SoLAr Collaboration
-        conference: "arXiv:2512.10830 [physics.ins-det] (2025)"
-
-      - title: "Opportunities and challenges to study solar neutrinos with a Q-Pix pixel readout"
-        link: "https://doi.org/10.1103/xq7l-lv7j"
-        authors: The Q-Pix Collaboration
-        conference: "Phys. Rev. D 112, 092009 (2025)"
-
-      - title: "First Demonstration of a Combined Light and Charge Pixel Readout on the Anode Plane of a LArTPC"
-        link: "https://doi.org/10.1088/1748-0221/19/11/P11010"
-        authors: The SoLAr Collaboration
-        conference: "JINST 19 (2024) 11, P11010"
-        
-      - title: "Distinguishing circumstellar from stellar photometric variability in Eta Carinae"
-        link: "https://doi.org/10.1093/mnras/stz067"
-        authors: A Damineli, E Fernández-Lajús et. al.
-        conference: "Monthly Notices of the Royal Astronomy Society, 2019"
-
-    # proceedings:
-      - title: "SoLAr: A novel technology for solar neutrino detection"
-        link: "https://doi.org/10.5281/zenodo.11447758"
-        authors: Guilherme Ruiz Ferreira
-        conference: "NuPhys2023: Prospects in Neutrino Physics, 18-20 December 2023, London, UK"
-
-      - title: "SoLAr: Solar Neutrinos in Liquid Argon"
-        link: "https://doi.org/10.48550/arXiv.2203.07501"
-        authors: The SoLAr Collaboration
-        conference: "Snowmass, 2021"
-
 
 # recommendations:
 #   title: Recommendations
@@ -549,8 +284,6 @@ skills:
   toolset:
     - name: Python
       level: 95%
-    - name: Python
-      level: 95%
 
     - name: Git
       level: 80%
@@ -584,42 +317,6 @@ skills:
 
     - name: Mathematica
       level: 50%
-
-
-    - name: Git
-      level: 80%
-
-    - name: Arduino
-      level: 70%
-
-    - name: Java
-      level: 30%
-
-    - name: C++
-      level: 20%
-
-    - name: ROOT
-      level: 20%
-
-    - name: MS Office (Excel, VBA)
-      level: 70%
-
-    - name: SQL
-      level: 50%
-
-    - name: HTML
-      level: 50%
-
-    - name: CSS
-      level: 50%
-
-    - name: LaTeX
-      level: 70%
-
-    - name: Mathematica
-      level: 50%
-
-
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

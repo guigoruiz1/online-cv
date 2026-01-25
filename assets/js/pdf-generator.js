@@ -8,12 +8,39 @@ function print() {
 }
 
 function generatePDF() {
+  // Helper to load a script if it's not already present
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = src;
+      s.onload = () => resolve();
+      s.onerror = () => reject(new Error('Failed to load ' + src));
+      document.head.appendChild(s);
+    });
+  }
+
+  // Ensure required libs are available (html2canvas and jsPDF)
+  const ensureLibs = () => {
+    const promises = [];
+    if (typeof window.html2canvas === 'undefined' && typeof window.html2canvas !== 'function') {
+      promises.push(loadScript('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js'));
+    }
+    if (typeof window.jsPDF === 'undefined' && !(window.jspdf && window.jspdf.jsPDF)) {
+      promises.push(loadScript('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js'));
+    }
+    return Promise.all(promises);
+  };
+
   // Get the print layout URL
   const printURL = window.location.pathname + "/print";
 
-  // Fetch the print layout content
-  fetch(printURL)
-    .then((response) => response.text())
+  // Make sure libs are loaded before fetching and rendering
+  ensureLibs()
+    .catch((err) => console.warn('Error loading PDF libraries (continuing if already present):', err))
+    .then(() => {
+      // Fetch the print layout content
+      return fetch(printURL).then((response) => response.text());
+    })
     .then((html) => {
       // Create a hidden iframe so the fetched HTML can load its styles/assets
       const iframe = document.createElement("iframe");
@@ -47,18 +74,93 @@ function generatePDF() {
           iframe.style.height = contentHeight + "px";
 
           const scale = 2;
-          html2canvas(iframe.contentWindow.document.body, {
-            scale: scale,
-            useCORS: true,
-            allowTaint: false,
-            logging: false,
-          })
-            .then((canvas) => {
-              const imgData = canvas.toDataURL("image/jpeg", 1.0);
 
-              // Create a jsPDF with units in pixels and page size equal to the canvas size
-              const pdf = new jsPDF({ unit: "px", format: [canvas.width, canvas.height] });
-              pdf.addImage(imgData, "JPEG", 0, 0, canvas.width, canvas.height);
+          // Wait helper: poll for a condition until timeout
+          const waitFor = (checkFn, timeout = 5000, interval = 100) => {
+            return new Promise((resolve, reject) => {
+              const start = Date.now();
+              (function poll() {
+                try {
+                  if (checkFn()) return resolve(true);
+                } catch (e) {
+                  // ignore
+                }
+                if (Date.now() - start > timeout) return reject(new Error('timeout'));
+                setTimeout(poll, interval);
+              })();
+            });
+          };
+
+          // Try to obtain html2canvas from iframe context or parent; load if needed
+          const getHtml2CanvasFn = () => {
+            try {
+              if (iframe.contentWindow && typeof iframe.contentWindow.html2canvas === 'function') return iframe.contentWindow.html2canvas;
+            } catch (e) { }
+            if (typeof window.html2canvas === 'function') return window.html2canvas;
+            if (typeof html2canvas === 'function') return html2canvas;
+            return null;
+          };
+
+          const runHtml2Canvas = () => {
+            const options = {
+              scale: scale,
+              useCORS: true,
+              allowTaint: false,
+              logging: false,
+            };
+            let fn = getHtml2CanvasFn();
+            if (fn) return Promise.resolve(fn(iframe.contentWindow.document.body, options));
+            // load and wait for global
+            return loadScript('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js')
+              .then(() => waitFor(() => !!getHtml2CanvasFn(), 5000))
+              .then(() => {
+                fn = getHtml2CanvasFn();
+                if (!fn) throw new Error('html2canvas failed to become available');
+                return fn(iframe.contentWindow.document.body, options);
+              });
+          };
+
+          runHtml2Canvas()
+            .then((canvas) => {
+              // Some PDF viewers / jsPDF have maximum page height limits.
+              // If the captured canvas is too tall, downscale it so we still produce a single page.
+              const MAX_PX = 14000; // safe max height in pixels for jsPDF/browser
+              let finalCanvas = canvas;
+              if (canvas.height > MAX_PX) {
+                const scaleDown = MAX_PX / canvas.height;
+                const scaledW = Math.round(canvas.width * scaleDown);
+                const scaledH = Math.round(canvas.height * scaleDown);
+                const tmp = document.createElement("canvas");
+                tmp.width = scaledW;
+                tmp.height = scaledH;
+                const ctx = tmp.getContext("2d");
+                ctx.drawImage(canvas, 0, 0, scaledW, scaledH);
+                finalCanvas = tmp;
+              }
+
+              const imgData = finalCanvas.toDataURL("image/jpeg", 1.0);
+
+              // Obtain jsPDF constructor (supports different UMD shapes)
+              let jsPDFCtor = window.jsPDF || (window.jspdf && window.jspdf.jsPDF);
+              if (!jsPDFCtor) {
+                // Try to load jspdf and then obtain constructor
+                return loadScript('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js')
+                  .then(() => {
+                    jsPDFCtor = window.jsPDF || (window.jspdf && window.jspdf.jsPDF);
+                    if (!jsPDFCtor) throw new Error('jsPDF failed to load');
+                    const pdf = new jsPDFCtor({ unit: 'px', format: [finalCanvas.width, finalCanvas.height] });
+                    pdf.addImage(imgData, 'JPEG', 0, 0, finalCanvas.width, finalCanvas.height);
+                    pdf.save(filename);
+                    document.body.removeChild(iframe);
+                  })
+                  .catch((err) => {
+                    console.error('Error loading jsPDF or creating PDF:', err);
+                    document.body.removeChild(iframe);
+                  });
+              }
+
+              const pdf = new jsPDFCtor({ unit: 'px', format: [finalCanvas.width, finalCanvas.height] });
+              pdf.addImage(imgData, 'JPEG', 0, 0, finalCanvas.width, finalCanvas.height);
               pdf.save(filename);
               document.body.removeChild(iframe);
             })
