@@ -81,7 +81,7 @@ experiences:
         details: |
           Assisted the construction and tests of GEM type detectors related to the upgrade of the ALICE experiment at the LHC.
             - Funded by CNPq - PIBIC scholarship
-            - Presented at the 23rd (2015) and 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
+            - Presented at the 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
             
       - role: Volunteer
         time: 2014 - 2016
@@ -131,11 +131,11 @@ events:
         details: |
           Brief presentation of research on GEM detectors for the ALICE experiment at LHC.
 
-      - role: Speaker &mdash; 23rd SIICUSP
-        time: 2015
-        location: University of São Paulo, Brazil
-        details: |
-          Brief presentation of research on GEM detectors for the ALICE experiment at LHC.
+      # - role: Speaker &mdash; 23rd SIICUSP
+      #   time: 2015
+      #   location: University of São Paulo, Brazil
+      #   details: |
+      #     Brief presentation of research on GEM detectors for the ALICE experiment at LHC.
 
       - role: Volunteer &mdash; Science Fair
         time: 2014
