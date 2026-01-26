@@ -56,7 +56,7 @@ career-profile:
       I am a particle physicist with a PhD from the University of Manchester, researching solar neutrino detection with liquid Argon time projection chambers. I hold an MSc from University College London and a BSc from the University of São Paulo, with additional experience in software development, data analysis, and operational strategy at Amazon. I also hold private aeroplane pilot licenses from Brazil and the UK.
 
 experiences:
-    title: Experiences
+    title: Work Experiences
     info:
       - role: Network Control Manager
         time: 2020 - 2021
@@ -67,20 +67,13 @@ experiences:
             - Managing multiple stakeholders and customers, presenting data and promptly handling last minute requests
             - Prioritisation of workload between long term strategic projects and short term tactical projects
 
-      - role: Hackathon Contestant
-        time: 2019
-        company: University College London Data Science Society Hackathon
+      - role: Undergraduate Research Assistant
+        time: 2017
+        company: University of São Paulo
         details: |
-          Data science competition in partnership with American Express and Microsoft. 
-            - Hosted at Microsoft Reactor London  
-
-      # - role: Undergraduate Research Assistant
-      #   time: 2017
-      #   company: University of São Paulo
-      #   details: |
-      #     Programatically (Python) collected, organised and thoroughly analysed a large volume of data from numerous sources to determine the mechanism behind η Carinae’s brightening in the last century.
-      #       - Data analysis and interpretation of photometric data
-      #       - Development of a Python code to analyse the data
+          Programatically (Python) collected, organised and thoroughly analysed a large volume of data from numerous sources to determine the mechanism behind η Carinae’s brightening in the last century.
+            - Data analysis and interpretation of photometric data
+            - Development of a Python code to analyse the data
 
       - role: Undergraduate Researcher Assistant
         time: 2014 - 2016
@@ -99,6 +92,59 @@ experiences:
             - Managed social media and events
             - Persuaded the institute's administration into implementing new policies for guaranteeing the wellbeing of transgender students
             - Held many joint meetings with the student's union officers
+
+events:
+    title: Events
+    info:
+      - role: Speaker &mdash; IOP Joint APP, HEPP and NP Annual Conference 2024
+        time: 2024
+        location: The Spire, Liverpool, UK
+        details: |
+          Presentation on the SoLAr detector prototyping campaign.
+
+      - role: Speaker &mdash; NuPhys2023
+        time: 2023
+        location: Kings College London, UK
+        details: |
+          Brief presentation and poster on the SoLAr concept for solar neutrino detection.
+
+      - role: Staff &mdash; Particle Physics Masterclass
+        time: 2023
+        location: University of Manchester, UK
+        details: |
+          Science outreach event for sixth form students and their teachers.
+            - Served as a member of the outreach team
+            - Presented the department's laboratory facilities
+            - Explained the department's work in an accessible way
+
+      - role: Contestant &mdash; UCL Data Science Society Hackathon
+        time: 2019
+        location: Microsoft Reactor, London, UK
+        details: |
+          Data science competition in partnership with American Express and Microsoft. 
+            - Explored the use of data science to address challenges in the credit card industry
+            - Teamwork and collaboration under time constraints
+
+      - role: Speaker &mdash; 24th SIICUSP
+        time: 2016
+        location: University of São Paulo, Brazil
+        details: |
+          Brief presentation of research on GEM detectors for the ALICE experiment at LHC.
+
+      - role: Speaker &mdash; 23rd SIICUSP
+        time: 2015
+        location: University of São Paulo, Brazil
+        details: |
+          Brief presentation of research on GEM detectors for the ALICE experiment at LHC.
+
+      - role: Staff &mdash; Science Fair
+        time: 2014
+        location: University of São Paulo, Brazil
+        details: |
+          Science outreach event for the general public.
+            - Served as staff for the department of nuclear physics
+            - Guided groups of students through experiments and activities
+            - Explained scientific concepts in an accessible way
 
 education:
     title: Education
