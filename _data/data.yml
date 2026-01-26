@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a particle physicist with a PhD from the University of Manchester, researching solar neutrino detection with liquid Argon time projection chambers. I hold an MSc from University College London and a BSc from the University of São Paulo, with additional experience in software development, data analysis, and operational strategy at Amazon. I also hold private aeroplane pilot licenses from Brazil and the UK.
+      Particle physicist with a PhD from the University of Manchester, specialising in solar neutrino detection using liquid argon time projection chambers. MSc, University College London; BSc, University of São Paulo. Experience spanning experimental physics, data analysis, and software development, including professional work in operational strategy at Amazon. Licensed private pilot in both Brazil and the United Kingdom.
 
 experiences:
     title: Work Experiences
@@ -108,7 +108,7 @@ events:
         details: |
           Brief presentation and poster on the SoLAr concept for solar neutrino detection.
 
-      - role: Staff &mdash; Particle Physics Masterclass
+      - role: Volunteer &mdash; Particle Physics Masterclass
         time: 2023
         location: University of Manchester, UK
         details: |
@@ -137,7 +137,7 @@ events:
         details: |
           Brief presentation of research on GEM detectors for the ALICE experiment at LHC.
 
-      - role: Staff &mdash; Science Fair
+      - role: Volunteer &mdash; Science Fair
         time: 2014
         location: University of São Paulo, Brazil
         details: |
@@ -224,7 +224,7 @@ projects:
         link: "https://github.com/SoLAr-Neutrinos/SoLAr-V2-reco"
         tagline: Reconstruction and data analysis software for the SoLAr experiment's second prototype detector.
 
-      - title: Yugiquery
+      - title: YugiQuery
         link: "http://guigoruiz1.github.io/yugiquery"
         tagline: Python script to query and display Yu-Gi-Oh! data from the <a href="http://yugipedia.com" target="_blank">yugipedia</a> database.
 
