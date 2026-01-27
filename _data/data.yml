@@ -43,12 +43,19 @@ sidebar:
           level: Basic
 
 
-    # interests:
-    #   title: Interests
-    #   info:
-    #     - item: 
-    #       link:
-
+    interests:
+      title: Interests
+      info:
+      - item: Elementary Particle physics
+        link:
+      - item: Data analysis and automation
+        link:
+      - item: Aviation and flight operations
+        link:
+      - item: Software development
+        link:
+      - item: Technical problem-solving
+        link:
 
 career-profile:
     title: Career Profile
