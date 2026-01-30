@@ -65,40 +65,62 @@ career-profile:
 experiences:
     title: Work Experiences
     info:
+      - role: PhD in Particle physics
+        time: 2021 - 2025
+        company: University of Manchester
+        details: |
+          Thesis: <i>Solar Neutrino Detection with a Pixelated Liquid--Argon Time Projection Chamber.</i>
+
+          Supervisors: Stefan Söldner-Rembold, Roxanne Guenette.
+            - Developed and tested detector readout and instrumentation concepts.
+            - Performed experimental measurements and simulation-based signal reconstruction.
+            - Supported experiment operations from commissioning through data taking.
+            - Applied statistical analyses and maintained data-processing pipelines.
+            - Conducted sensitivity studies relating detector performance to physical observables.
+            - Co-authored peer-reviewed publications with international collaborators.
+
       - role: Network Control Manager
         time: 2020 - 2021
         company: Amazon Logistics, London
         details: |
           Started off as an intern and had a position specially created for me to be hired full time.
-            - Automation of reports and data processing through Python scripts, SQL and Excel
-            - Managing multiple stakeholders and customers, presenting data and promptly handling last minute requests
-            - Prioritisation of workload between long term strategic projects and short term tactical projects
+            - Modelled warehouse operations and production patterns (Excel + VBA).
+            - Analysed historical operational data to resolve lane connectivity issues (SQL).
+            - Automated reporting and data workflows (Python, SQL, Excel).
+            - Developed internal web tools and reports (HTML/CSS).
+            - Managed stakeholders, delivering timely data-driven insights while balancing long-term strategy with short-term priorities in a fast-paced environment.
 
-      - role: Undergraduate Research Assistant
+      - role: Undergraduate Researcher
         time: 2017
         company: University of São Paulo
         details: |
-          Programatically (Python) collected, organised and thoroughly analysed a large volume of data from numerous sources to determine the mechanism behind η Carinae’s brightening in the last century.
-            - Data analysis and interpretation of photometric data
-            - Development of a Python code to analyse the data
+          Collected, organised, and analysed a large volume of data from numerous sources to determine the mechanism behind η Carinae's brightening in the last century.
 
-      - role: Undergraduate Researcher Assistant
+          Thesis: <i>The Light Curve of η Carinae: Intrinsic brightening or dust destruction?</i>
+
+          Supervisor: Augusto Damineli.
+            - Analysed photometric data to investigate circumstellar dust destruction and stellar variability.
+            - Developed Python analysis tools to process and visualise large astronomical datasets.
+
+      - role: Undergraduate Researcher
         time: 2014 - 2016
         company: University of São Paulo
         details: |
           Assisted the construction and tests of GEM type detectors related to the upgrade of the ALICE experiment at the LHC.
-            - Funded by CNPq - PIBIC scholarship
-            - Presented at the 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP)
+
+          Supervisor: Nelson Carlin Filho.
+            - Funded by CNPq--PIBIC scholarship.
+            - Presented research at the 24th (2016) International Symposium on Scientific Initiation of the University of São Paulo (SIICUSP).
             
       - role: Volunteer
         time: 2014 - 2016
         company: Institute of Physics' LGBT+ Collective
         details: | 
-          A founding member in 2014. As one of four direction officers from 2015 to 2016:
-            - Planned and coordinated the creation of the collective's manifesto
-            - Managed social media and events
-            - Persuaded the institute's administration into implementing new policies for guaranteeing the wellbeing of transgender students
-            - Held many joint meetings with the student's union officers
+          A founding member in 2014 and direction officer from 2015 to 2016.
+            - Planned and coordinated the creation of the collective's manifesto.
+            - Persuaded the institute's administration into implementing new policies for guaranteeing the wellbeing of transgender students.
+            - Held many joint meetings with the student's union officers.
+            - Managed social media and events.
 
 events:
     title: Events
@@ -120,17 +142,17 @@ events:
         location: University of Manchester, UK
         details: |
           Science outreach event for sixth form students and their teachers.
-            - Served as a member of the outreach team
-            - Presented the department's laboratory facilities
-            - Explained the department's work in an accessible way
+            - Served as a member of the outreach team.
+            - Presented the department's laboratory facilities.
+            - Explained the department's work in an accessible way.
 
       - role: Contestant &mdash; UCL Data Science Society Hackathon
         time: 2019
         location: Microsoft Reactor, London, UK
         details: |
           Data science competition in partnership with American Express and Microsoft. 
-            - Explored the use of data science to address challenges in the credit card industry
-            - Teamwork and collaboration under time constraints
+            - Explored the use of data science to address challenges in the credit card industry.
+            - Teamwork and collaboration under time constraints.
 
       - role: Speaker &mdash; 24th SIICUSP
         time: 2016
@@ -149,9 +171,9 @@ events:
         location: University of São Paulo, Brazil
         details: |
           Science outreach event for the general public.
-            - Served as staff for the department of nuclear physics
-            - Guided groups of students through experiments and activities
-            - Explained scientific concepts in an accessible way
+            - Served as staff for the department of nuclear physics.
+            - Guided groups of students through experiments and activities.
+            - Explained scientific concepts in an accessible way.
 
 education:
     title: Education
@@ -162,7 +184,7 @@ education:
         details: |
           Thesis: “Solar Neutrino Detection with a Pixelated Liquid-Argon Time Projection Chamber”. 
           Supervisors: Stefan Söldner-Remdold and Roxanne Guenette.
-            - Thesis available on request
+            - Thesis available on request.
 
       - degree: STFC Summer School
         university: University of Oxford
@@ -175,8 +197,8 @@ education:
         time: 2018 - 2020
         details: |
            Thesis: “Exotic Contributions to Double Beta Decay”. Supervisor: Frank Deppisch.
-            - Final result: Distinction (75.5%)
-            - Thesis available on request
+            - Final result: Distinction (75.5%).
+            - Thesis available on request.
 
       - degree: BSc in Physics with Astronomy
         university: University of São Paulo
@@ -185,8 +207,8 @@ education:
           Consisted of every module from the physics course plus the core modules from the astronomy course. 
           Thesis: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
           Supervisor: Augusto Damineli.
-            - Final grade: 7 out of 10
-            - Transcript available on request
+            - Final grade: 7 out of 10.
+            - Transcript available on request.
 
       - degree: First joint ICTP-Trieste/ICTP-SAIFR School on Particle Physics
         university: IFT-UNESP
