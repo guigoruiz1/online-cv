@@ -131,7 +131,7 @@ events:
         details: |
           Presentation on the SoLAr detector prototyping campaign.
 
-      - role: Speaker &mdash; NuPhys: Prospects in Neutrino Physics
+      - role: "Speaker &mdash; NuPhys: Prospects in Neutrino Physics"
         time: 2023
         location: Kings College London, UK
         details: |
