@@ -125,13 +125,13 @@ experiences:
 events:
     title: Events
     info:
-      - role: Speaker &mdash; IOP Joint APP, HEPP and NP Annual Conference 2024
+      - role: Speaker &mdash; IOP Joint APP, HEPP and NP Annual Conference
         time: 2024
-        location: The Spire, Liverpool, UK
+        location: The Spine, Liverpool, UK
         details: |
           Presentation on the SoLAr detector prototyping campaign.
 
-      - role: Speaker &mdash; NuPhys2023
+      - role: Speaker &mdash; NuPhys: Prospects in Neutrino Physics
         time: 2023
         location: Kings College London, UK
         details: |
