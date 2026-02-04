@@ -366,13 +366,13 @@ skills:
       level: 95%
 
     - name: Java
-      level: 30%
+      level: 35%
 
     - name: C++
-      level: 20%
+      level: 30%
 
     - name: ROOT
-      level: 20%
+      level: 40%
 
     - name: MS Office (Excel, VBA)
       level: 70%
@@ -387,10 +387,10 @@ skills:
       level: 70%
 
     - name: HTML
-      level: 50%
+      level: 65%
 
     - name: CSS
-      level: 50%
+      level: 65%
 
     - name: LaTeX
       level: 70%
@@ -399,10 +399,10 @@ skills:
       level: 50%
     
     - name: COMSOL
-      level: 70%
+      level: 60%
 
     - name: InfluxDB
-      level: 40%
+      level: 55%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  © 2026 Guilherme Ruiz, Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
