@@ -69,7 +69,7 @@ experiences:
         time: 2021 - 2025
         company: University of Manchester
         details: |
-          Thesis: <i>Solar Neutrino Detection with a Pixelated Liquid--Argon Time Projection Chamber.</i>
+          Thesis: <a href="https://research.manchester.ac.uk/en/studentTheses/solar-neutrino-detection-with-a-pixelated-liquid-argon-time-proje/" target="_blank" rel="noopener noreferrer"><i>Solar Neutrino Detection with a Pixelated Liquid--Argon Time Projection Chamber.</i></a>
 
           Supervisors: Stefan Söldner-Rembold, Roxanne Guenette.
             - Developed and tested detector readout and instrumentation concepts.
@@ -184,7 +184,7 @@ education:
         details: |
           Thesis: “Solar Neutrino Detection with a Pixelated Liquid-Argon Time Projection Chamber”. 
           Supervisors: Stefan Söldner-Remdold and Roxanne Guenette.
-            - Thesis available on request.
+            - Thesis available <a href="https://research.manchester.ac.uk/en/studentTheses/solar-neutrino-detection-with-a-pixelated-liquid-argon-time-proje/" target="_blank" rel="noopener noreferrer">here</a>.
 
       - degree: STFC Summer School
         university: University of Oxford
@@ -208,7 +208,7 @@ education:
           Thesis: "The Light Curve of η Carinae: Intrinsic brightening or dust destruction?"
           Supervisor: Augusto Damineli.
             - Final grade: 7 out of 10.
-            - Transcript available on request.
+            - Transcript and thesis available on request.
 
       - degree: First joint ICTP-Trieste/ICTP-SAIFR School on Particle Physics
         university: IFT-UNESP
