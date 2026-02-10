@@ -65,7 +65,7 @@ career-profile:
 experiences:
     title: Work Experiences
     info:
-      - role: PhD in Particle physics
+      - role: Doctoral Researcher
         time: 2021 - 2025
         company: University of Manchester
         details: |
@@ -125,13 +125,13 @@ experiences:
 events:
     title: Events
     info:
-      - role: Speaker &mdash; IOP Joint APP, HEPP and NP Annual Conference
+      - role: Speaker &mdash; <a href="https://iop.eventsair.com/app-hepp-np2024/" target="_blank" rel="noopener noreferrer">IOP Joint APP, HEPP and NP Annual Conference</a>
         time: 2024
         location: The Spine, Liverpool, UK
         details: |
           Presentation on the SoLAr detector prototyping campaign.
 
-      - role: "Speaker &mdash; NuPhys: Prospects in Neutrino Physics"
+      - role: 'Speaker &mdash; <a href="https://indico.cern.ch/event/1234324/" target="_blank" rel="noopener noreferrer">NuPhys: Prospects in Neutrino Physics</a>'
         time: 2023
         location: Kings College London, UK
         details: |
