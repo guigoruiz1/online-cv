@@ -129,13 +129,13 @@ events:
         time: 2024
         location: The Spine, Liverpool, UK
         details: |
-          Presentation on the SoLAr detector prototyping campaign.
+          <a href="https://indico.cern.ch/event/1388874/contributions/5878783/attachments/2833954/4954195/IOP042024.pdf" target="_blank" rel="noopener noreferrer">Presentation</a> on the SoLAr detector prototyping campaign.
 
       - role: 'Speaker &mdash; <a href="https://indico.cern.ch/event/1234324/" target="_blank" rel="noopener noreferrer">NuPhys: Prospects in Neutrino Physics</a>'
         time: 2023
         location: Kings College London, UK
         details: |
-          Brief presentation and poster on the SoLAr concept for solar neutrino detection.
+          Brief <a href="https://doi.org/10.5281/zenodo.11447758" target="_blank" rel="noopener noreferrer">presentation</a> and <a href="https://ruizbad.com/files/NuPhys2023.pdf" target="_blank" rel="noopener noreferrer">poster</a> on the SoLAr concept for solar neutrino detection.
 
       - role: Volunteer &mdash; Particle Physics Masterclass
         time: 2023
@@ -154,17 +154,11 @@ events:
             - Explored the use of data science to address challenges in the credit card industry.
             - Teamwork and collaboration under time constraints.
 
-      - role: Speaker &mdash; 24th SIICUSP
+      - role: Speaker &mdash; <a href="https://uspdigital.usp.br/siicusp/" target="_blank" rel="noopener noreferrer">24th SIICUSP</a>
         time: 2016
         location: University of São Paulo, Brazil
         details: |
-          Brief presentation of research on GEM detectors for the ALICE experiment at LHC.
-
-      # - role: Speaker &mdash; 23rd SIICUSP
-      #   time: 2015
-      #   location: University of São Paulo, Brazil
-      #   details: |
-      #     Brief presentation of research on GEM detectors for the ALICE experiment at LHC.
+          Brief <a href="https://ruizbad.com/files/24-SIICUSP.pdf" target="_blank" rel="noopener noreferrer">presentation</a> of research on GEM detectors for the ALICE experiment at LHC.
 
       - role: Volunteer &mdash; Science Fair
         time: 2014
@@ -374,7 +368,19 @@ skills:
     - name: ROOT
       level: 40%
 
-    - name: MS Office (Excel, VBA)
+    - name: HTML/CSS
+      level: 65%
+  
+    - name: LaTeX
+      level: 70%
+
+    - name: Mathematica
+      level: 50%
+
+    - name: VBA
+      level: 50%
+
+    - name: MS Office
       level: 70%
 
     - name: SQL
@@ -383,26 +389,14 @@ skills:
     - name: Git
       level: 80%
 
-    - name: Arduino
-      level: 70%
-
-    - name: HTML
-      level: 65%
-
-    - name: CSS
-      level: 65%
-
-    - name: LaTeX
-      level: 70%
-
-    - name: Mathematica
-      level: 50%
+    - name: InfluxDB
+      level: 55%
     
     - name: COMSOL
       level: 60%
 
-    - name: InfluxDB
-      level: 55%
+    - name: Arduino
+      level: 70%
 
 footer: >
   © 2026 Guilherme Ruiz, Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
