@@ -353,50 +353,48 @@ publications:
 #       Temporary.
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills
 
-  toolset:
-    - name: Python
-      # level: 95%
+  categories:
+    - name: Data & Tools
+      items:
+        - Linux
+        - Docker
+        - Git
+        - SQL
+        - InfluxDB
+        - COMSOL
 
-    - name: Java
-      # level: 35%
+    - name: Programming
+      items:
+        - name: Python
+          level: 95%
+        - C/C++
+        - Java
+        - Swift
+        - ROOT
+        - Mathematica
+        - LaTeX
+        - HTML/CSS
+        - VBA
 
-    - name: C++
-      # level: 30%
+    - name: Electronics
+      items:
+        - Arduino
+        - microcontrollers
+        - nuclear instrumentation modules
+        - data acquisition systems
 
-    - name: ROOT
-      # level: 40%
+    - name: Academic
+      items:
+        - Data analysis
+        - research
+        - scientific writing
+        - teaching/tutoring
 
-    - name: HTML/CSS
-      # level: 65%
-  
-    - name: LaTeX
-      # level: 70%
-
-    - name: Mathematica
-      # level: 50%
-
-    - name: VBA
-      # level: 50%
-
-    - name: MS Office
-      # level: 70%
-
-    - name: SQL
-      # level: 50%
-
-    - name: Git
-      # level: 80%
-
-    - name: InfluxDB
-      # level: 55%
-    
-    - name: COMSOL
-      # level: 60%
-
-    - name: Arduino
-      # level: 70%
+    - name: Aviation
+      items:
+        - Private Pilot License (PPL)
 
 footer: >
   © 2026 Guilherme Ruiz, Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
