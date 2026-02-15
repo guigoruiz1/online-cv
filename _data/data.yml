@@ -367,8 +367,7 @@ skills:
 
     - name: Programming
       items:
-        - name: Python
-          level: 95%
+        - Python
         - C/C++
         - Java
         - Swift
@@ -381,20 +380,16 @@ skills:
     - name: Electronics
       items:
         - Arduino
-        - microcontrollers
-        - nuclear instrumentation modules
-        - data acquisition systems
+        - Microcontrollers
+        - Nuclear Instrumentation
+        - Data Acquisition Systems
 
     - name: Academic
       items:
-        - Data analysis
-        - research
-        - scientific writing
-        - teaching/tutoring
-
-    - name: Aviation
-      items:
-        - Private Pilot License (PPL)
+        - Data Analysis
+        - Research
+        - Scientific Writing
+        - Teaching/Tutoring
 
 footer: >
   © 2026 Guilherme Ruiz, Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
