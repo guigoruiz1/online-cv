@@ -11,7 +11,7 @@
   <div class="skillset">
     {% for category in skills.categories %}
     <div class="item">
-      <h3 class="level-title">{{ category.name }}</h3>
+      <h3 class="skill-category-title">{{ category.name }}</h3>
       {% assign text_items = "" | split: "|" %}
       {% assign level_items = "" | split: "|" %}
       {% for item in category.items %}
@@ -22,7 +22,7 @@
         {% endif %}
       {% endfor %}
       {% if text_items.size > 0 %}
-        <p class="skills-list">{{ text_items | join: ", " }}</p>
+        <p class="skills-list">{{ text_items | join: " &bull; " }}</p>
       {% endif %}
       {% if level_items.size > 0 %}
         <div class="skills-level-list">
