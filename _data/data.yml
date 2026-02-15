@@ -357,46 +357,46 @@ skills:
 
   toolset:
     - name: Python
-      level: 95%
+      # level: 95%
 
     - name: Java
-      level: 35%
+      # level: 35%
 
     - name: C++
-      level: 30%
+      # level: 30%
 
     - name: ROOT
-      level: 40%
+      # level: 40%
 
     - name: HTML/CSS
-      level: 65%
+      # level: 65%
   
     - name: LaTeX
-      level: 70%
+      # level: 70%
 
     - name: Mathematica
-      level: 50%
+      # level: 50%
 
     - name: VBA
-      level: 50%
+      # level: 50%
 
     - name: MS Office
-      level: 70%
+      # level: 70%
 
     - name: SQL
-      level: 50%
+      # level: 50%
 
     - name: Git
-      level: 80%
+      # level: 80%
 
     - name: InfluxDB
-      level: 55%
+      # level: 55%
     
     - name: COMSOL
-      level: 60%
+      # level: 60%
 
     - name: Arduino
-      level: 70%
+      # level: 70%
 
 footer: >
   © 2026 Guilherme Ruiz, Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
