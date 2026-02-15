@@ -302,8 +302,6 @@ p {
 }
 
 .skillset {
-  text-align: center;
-
   .item {
     margin-bottom: 15px;
     overflow: hidden;
@@ -313,6 +311,11 @@ p {
     font-size: 15px;
     margin-top: 0;
     margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .skills-list {
+    text-align: center;
   }
 
   .level-title {

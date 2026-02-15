@@ -25,18 +25,18 @@
         <p class="skills-list">{{ text_items | join: " • " }}</p>
       {% endif %}
       {% if level_items.size > 0 %}
-        <div class="skills-level-list">
-          {% for item in level_items %}
-            <div class="skill-item">
-              <span class="level-title">{{ item.name }}</span>
-              {% if item.level %}
-                <div class="level-bar">
-                  <div class="level-bar-inner" style="width: {{ item.level }}"></div>
-                </div>
-              {% endif %}
+        {% for item in level_items %}
+        <div class="item">
+          <h3 class="level-title">{{ item.name }}</h3>
+          {% if item.level %}
+            <div class="level-bar">
+              <div class="level-bar-inner" style="width: {{ item.level }}"></div>
             </div>
-          {% endfor %}
+            <!--//level-bar-->
+          {% endif %}
         </div>
+        <!--//item-->
+        {% endfor %}
       {% endif %}
     </div>
     <!--//item-->
