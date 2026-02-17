@@ -1,9 +1,7 @@
-name: Sync CV.pdf from latest release
-
+name: Repository Dispatch
 on:
   repository_dispatch:
     types: [sync_cv]
-  workflow_dispatch:
 
 jobs:
   sync:
@@ -13,24 +11,24 @@ jobs:
       - name: Checkout website repository
         uses: actions/checkout@v4
 
-      - name: Download latest CV.pdf from private repo
+      - name: Download latest cv.pdf from private repo
         uses: robinraju/release-downloader@v1
         with:
           repository: 'guigoruiz1/cv'
           latest: true
           fileName: 'cv.pdf'
-          out-file-path: 'assets/docs/CV.pdf'
-          token: ${{ secrets.ACCESS_TOKEN }}   # same token as dispatch
+          out-file-path: 'assets/docs'
+          token: ${{ secrets.PAT }}
 
-      - name: Verify CV.pdf exists
+      - name: Verify cv.pdf exists
         run: |
-          if [ ! -f assets/docs/CV.pdf ]; then
-            echo "Error: CV.pdf not found in latest release!"
+          if [ ! -f assets/docs/cv.pdf ]; then
+            echo "Error: cv.pdf not found in latest release!"
             exit 1
           fi
 
-      - name: Commit updated CV.pdf if changed
+      - name: Commit updated cv.pdf if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update CV.pdf from latest release"
-          file_pattern: 'assets/docs/CV.pdf'
+          file_pattern: 'assets/docs/cv.pdf'
