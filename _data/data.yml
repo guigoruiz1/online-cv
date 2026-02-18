@@ -359,6 +359,7 @@ skills:
     - name: Data & Tools
       items:
         - Linux
+        - Networking
         - Docker
         - Git
         - SQL
