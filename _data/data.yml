@@ -243,6 +243,10 @@ projects:
     intro: >
       Personal projects and academic assignments.
     assignments:
+      - title: Network Builder
+        link: "https://github.com/guigoruiz1/network-builder"
+        tagline: Python script to generate relationship networks from compact YAML files.
+
       - title: SoLAr V2 reco
         link: "https://github.com/SoLAr-Neutrinos/SoLAr-V2-reco"
         tagline: Reconstruction and data analysis software for the SoLAr experiment's second prototype detector.
