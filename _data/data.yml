@@ -283,6 +283,10 @@ oss:
       - title: pylandau logging enhancement
         link: "https://github.com/SiLab-Bonn/pylandau/pull/31"
         tagline: Added logging mechanism to pylandau package to handle warnings instead of using print statements.
+      
+      - title: QPixG4 contributions
+        link: "https://github.com/Q-Pix/qpixg4/commits/feature/Geant4.11/?author=guigoruiz1"
+        tagline: Several contributions to the QPixG4 simulation software.
 
 publications:
     title: Publications
