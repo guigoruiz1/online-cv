@@ -299,9 +299,9 @@ publications:
       #   conference: "PhD Thesis, University of Manchester, 2025"
 
       - title: "Cosmic Ray Measurements Using Charge and Light Readout in a Pixelated Liquid Argon Time Projection Chamber"
-        link: "https://doi.org/10.48550/arXiv.2512.10830"
+        link: "https://doi.org/10.1088/1748-0221/21/04/P04008"
         authors: The SoLAr Collaboration
-        conference: "arXiv:2512.10830 [physics.ins-det] (2025)"
+        conference: "JINST 21 (2026) 04, P04008"
 
       - title: "Opportunities and challenges to study solar neutrinos with a Q-Pix pixel readout"
         link: "https://doi.org/10.1103/xq7l-lv7j"
