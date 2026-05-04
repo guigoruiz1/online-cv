@@ -243,25 +243,30 @@ projects:
     intro: >
       Personal projects and academic assignments.
     assignments:
-      - title: Network Builder
-        link: "https://github.com/guigoruiz1/network-builder"
-        tagline: Python script to generate relationship networks from compact YAML files.
 
       - title: SoLAr V2 reco
         link: "https://github.com/SoLAr-Neutrinos/SoLAr-V2-reco"
-        tagline: Reconstruction and data analysis software for the SoLAr experiment's second prototype detector.
+        tagline: Reconstruction and data analysis software for the SoLAr V2 detector prototype. Includes signal processing and statistical analysis for Detector and Monte Carlo data.
 
       - title: YugiQuery
         link: "http://guigoruiz1.github.io/yugiquery"
-        tagline: Python script to query and display Yu-Gi-Oh! data from the <a href="http://yugipedia.com" target="_blank">yugipedia</a> database.
+        tagline: Full Python package for querying and displaying Yu-Gi-Oh! data from the <a href="http://yugipedia.com" target="_blank">yugipedia</a> database. pip-installable CLI tool. Features Discord/Telegram bots, ReadTheDocs documentation, GitHub Actions CI/CD, custom nbconvert HTML templates, Git filters, data pipeline with changelog tracking. Built on pandas, matplotlib and Git.
 
-      - title: Arduino Odometry
-        link: "http://github.com/guigoruiz1/arduino-odometry"
-        tagline: Jupyter notebook to reconstruct inertial navigation data from arduino sensors.
+      - title: YugiAI
+        link: "http://guigoruiz1.github.io/yugiai"
+        tagline: Python AI-powered data exploration tool for Yu-Gi-Oh card datasets. It is an experimental early-stage project with a natural-language query layer built on pandas and Plotly, backed by NVIDIA/OpenAI models and an interactive web UI.
+      
+      - title: Network Builder
+        link: "https://github.com/guigoruiz1/network-builder"
+        tagline: Python tool for building interactive network visualisations from YAML using pyvis and vis.js. Includes YAML parsing and image asset management. 
 
       - title: nbtools
         link: "https://github.com/guigoruiz1/nbtools"
-        tagline: Collection of Jupyter notebook utilities to improve productivity and usability.
+        tagline: "Jupyter notebook management utilities: table of contents generation, heading numbering, notebook composition from templates, and NBConvert auto light/dark theme support."
+      
+      - title: Arduino Odometry
+        link: "http://github.com/guigoruiz1/arduino-odometry"
+        tagline: Jupyter notebook to reconstruct inertial navigation data from arduino sensors.
 
       - title: DHT Weather Library
         link: "https://github.com/guigoruiz1/DHT-weather-library"
@@ -369,6 +374,7 @@ skills:
         - Linux
         - Networking
         - Docker
+        - AWS
         - Git
         - SQL
         - InfluxDB
