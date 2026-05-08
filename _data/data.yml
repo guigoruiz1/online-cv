@@ -60,8 +60,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Particle physicist with a PhD from the University of Manchester, specialising in solar neutrino detection using liquid argon time projection chambers. MSc, University College London; BSc, University of São Paulo. Experience spanning experimental physics, data analysis, and software development, including professional work in operational strategy at Amazon. Licensed private pilot in both Brazil and the United Kingdom.
-
+        Data scientist and software developer with a PhD in particle physics from the University of Manchester, specialising in neutrino detection using liquid argon time projection chambers (LArTPCs). Experience spans experimental physics, large-scale data analysis, and software development, including professional work in operational strategy at Amazon Logistics in London. Strong background in Python-based data analysis and scientific computing, with a focus on building and automating data pipelines from research to production environments. Licensed private pilot in the UK and Brazil.
+      
 experiences:
     title: Work Experiences
     info:
