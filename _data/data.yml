@@ -252,8 +252,12 @@ projects:
         link: "http://guigoruiz1.github.io/yugiquery"
         tagline: Full Python package for querying and displaying Yu-Gi-Oh! data from the <a href="http://yugipedia.com" target="_blank">yugipedia</a> database. pip-installable CLI tool. Features Discord/Telegram bots, ReadTheDocs documentation, GitHub Actions CI/CD, custom nbconvert HTML templates, Git filters, data pipeline with changelog tracking. Built on pandas, matplotlib and Git.
 
+      - title: YugiViT
+        link: "https://github.com/guigoruiz1/yugivit"
+        tagline: Unsupervised vision transformer for learning visual representations of Yu-Gi-Oh! cards from images. Compares masked autoencoder and contrastive learning approaches, with embedding analysis and retrieval experiments.
+
       - title: YugiAI
-        link: "http://guigoruiz1.github.io/yugiai"
+        link: "https://github.com/guigoruiz1/yugiai"
         tagline: Python AI-powered data exploration tool for Yu-Gi-Oh card datasets. It is an experimental early-stage project with a natural-language query layer built on pandas and Plotly, backed by NVIDIA/OpenAI models and an interactive web UI.
       
       - title: Network Builder
