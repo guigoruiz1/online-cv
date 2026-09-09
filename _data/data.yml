@@ -42,26 +42,29 @@ sidebar:
         - idiom: Spanish
           level: Basic
 
-
     interests:
       title: Interests
       info:
-      - item: Elementary Particle physics
-        link:
-      - item: Data analysis and automation
-        link:
-      - item: Aviation and flight operations
-        link:
-      - item: Software development
-        link:
-      - item: Technical problem-solving
-        link:
+        - item: Particle physics
+          link:
+        - item: Data science
+          link:
+        - item: Machine learning
+          link:
+        - item: Software development
+          link:
+        - item: Aviation and flight operations
+          link:
+        - item: Scientific computing
+          link:
+        - item: Electronics
+          link:
 
 career-profile:
     title: Career Profile
     summary: |
-        Data scientist and software developer with a PhD in particle physics from the University of Manchester, specialising in neutrino detection using liquid argon time projection chambers (LArTPCs). Experience spans experimental physics, large-scale data analysis, and software development, including professional work in operational strategy at Amazon Logistics in London. Strong background in Python-based data analysis and scientific computing, with a focus on building and automating data pipelines from research to production environments. Licensed private pilot in the UK and Brazil.
-      
+        Data scientist and software developer with a PhD in experimental particle physics from the University of Manchester. Experienced in Python-based data analysis, machine learning, statistical modelling and scientific computing, with research involving detector development, experimental data and Monte Carlo simulations. Also worked as a Business Analyst at Amazon, using operational data and software to investigate network constraints and automate reporting processes. My work spans research, data analysis and software development, with experience communicating technical work to people from different backgrounds. Licensed private pilot in both the UK and Brazil.
+
 experiences:
     title: Work Experiences
     info:
@@ -373,16 +376,16 @@ skills:
   title: Skills
 
   categories:
-    - name: Data & Tools
+    - name: Data & Analytics
       items:
-        - Linux
-        - Networking
-        - Docker
-        - AWS
-        - Git
-        - SQL
-        - InfluxDB
-        - COMSOL
+        - Data Analysis
+        - Data Visualisation
+        - Machine Learning
+        - Statistical Modelling
+        - Algorithm Development
+        - Reporting & Insights
+        - Dashboards
+        - Monte Carlo Simulation
 
     - name: Programming
       items:
@@ -390,11 +393,25 @@ skills:
         - C/C++
         - Java
         - Swift
+        - SQL
         - ROOT
         - Mathematica
         - LaTeX
         - HTML/CSS
         - VBA
+
+    - name: Software & Tools
+      items:
+        - Linux
+        - Networking
+        - Docker
+        - AWS
+        - Git
+        - REST APIs
+        - CI/CD
+        - Bash
+        - InfluxDB
+        - COMSOL
 
     - name: Electronics
       items:
@@ -405,7 +422,6 @@ skills:
 
     - name: Academic
       items:
-        - Data Analysis
         - Scientific Research
         - Technical Writing
         - Teaching/Tutoring
